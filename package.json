@@ -1,0 +1,21 @@
+{
+  "name": "weather-widget",
+  "version": "1.0.0",
+  "source": "/src/index.ts",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build",
+    "watch": "parcel watch"
+  },
+  "devDependencies": {
+    "parcel": "^2.8.2"
+  },
+  "dependencies": {
+    "@dashboard-platform/widget-interface": "^1.0.0",
+    "react": "^18.2.0",
+    "typescript": "^4.9.4"
+  }
+}
